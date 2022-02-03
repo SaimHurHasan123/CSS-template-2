@@ -4,7 +4,8 @@
     font-family: sans-serif;
 }
 .top{
-    height: 76px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     background-color: grey;
     
@@ -47,21 +48,45 @@ background-color: green;
 .mid2 {
     margin-top: 2%;
 }
-#overall middle-container {
+#overallmiddle-container {
     overflow: hidden;
+    display: flex;
+
+    
 }
 #middle-1{
-    float: left;
+    
     width: 75%;
 }
 #middle-2{
-    float: right;
+    
+    overflow: hidden;
     width: 25%;
-    height: 70%;
+    
     background-color: gray;
-    padding-bottom: 50%;
+    padding-bottom: 43%;
+}
+#mid1a {
+    color:rgb(0,63,101);
+     margin-top: 4%; 
+     margin-left: 5%;
+
 }
 .para2 {
 margin-top: 4%;
 margin-left: 5%;
+}
+
+footer {
+    clear:both; 
+    margin-top: -1px;
+    padding: 10px;
+    background-color: gray;
+    margin-bottom: 0px;
+    
+}
+footer p{
+    text-align: right;
+    padding-right: 7px;
+    padding-top: 5px;
 }
