@@ -35,3 +35,33 @@ ul li:hover{
 background-color: green;
 
 }
+#mid {
+    padding-top: 4%;
+    padding-left:4%;
+    color: rgb(0,63,101);
+}
+.mid1 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.mid2 {
+    margin-top: 2%;
+}
+#overall middle-container {
+    overflow: hidden;
+}
+#middle-1{
+    float: left;
+    width: 75%;
+}
+#middle-2{
+    float: right;
+    width: 25%;
+    height: 70%;
+    background-color: gray;
+    padding-bottom: 50%;
+}
+.para2 {
+margin-top: 4%;
+margin-left: 5%;
+}
