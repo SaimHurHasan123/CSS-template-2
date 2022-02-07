@@ -8,8 +8,6 @@
     padding-bottom: 10px;
     width: 100%;
     background-color: grey;
-    
-    padding: 10px 0px 0px 10px;
 }
 .top h1{
   font-size: 20px;
@@ -18,22 +16,31 @@
  position:relative;
 }
 .topnav{
+
  border: 1px solid black;
  background-color: black;
  overflow: hidden;
 }
 li{
 display: inline;
-
-padding: 18px;
+text-decoration: none;
+padding: 28px;
 color: white;
 border-right: 2px solid white;    
 cursor: pointer;
 text-align: center;   
 
 }
+ul {
+    padding-top: 28px;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
 ul li:hover{
 background-color: green;
+text-decoration: none;
 
 }
 #mid {
